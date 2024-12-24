@@ -1,0 +1,69 @@
+.edu-main {
+    width: 100%;
+    height: 100%;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.edu-text {
+    display: flex ;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-con-edu {
+    width: 80%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 1px 4px 10px aqua;
+}
+
+.uni-name {
+    font-size: 25px;    
+}
+
+.computer {
+    width: 50%;
+}
+
+.date1 {
+position: absolute;
+width: 111px;
+height: 18px;
+left: 300px;
+color: black;
+background-color: aqua;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 750px) {
+    .box-con-edu {
+        flex-direction: column;
+    }
+
+    .computer {
+        width: 100%;
+     }
+
+     .edu-text {
+        width: 70%;
+     }
+
+     .edu-main {
+        width: 90%;
+    }
+
+    .date1 {
+        left: 40%;
+    }
+ }    
